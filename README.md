@@ -80,7 +80,9 @@ rbenv install 2.3.1
 
   You can totally do this, but then you'll need to either copy the files from
   their current location in your Dropbox to the Public folder (and figure out
-  how to keep them in sync&mdash;note that symlinks won't work!)
+  how to keep them in sync&mdash;note that symlinks won't work!) or just store
+  them solely in your Public folder (which may conflict with how you like the
+  organizational structure of your Dropbox).
 
   You'll also need a way to host the files at a URL you can remember. The
   links for publicly-shared files in Dropbox aren't the easiest to remember.
