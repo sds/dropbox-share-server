@@ -2,8 +2,10 @@
 
 Sometimes you just want to serve static files from your Dropbox.
 
-A common example is serving your 1PasswordAnywhere web page so you can access
+A common example is serving your [1PasswordAnywhere][1PA] web page so you can access
 your encrypted passwords online.
+
+[1PA]: https://discussions.agilebits.com/discussion/63045/moving-beyond-1passwordanywhere)
 
 ## Getting Started
 
