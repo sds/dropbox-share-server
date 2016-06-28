@@ -96,3 +96,7 @@ rbenv install 2.3.1
   As long as you keep making requests within a specified threshold (default
   5 minutes), the files will be automatically synced in the background at
   some interval (every 30 seconds by default).
+
+## License
+
+This project is released under the [MIT license](LICENSE.md).
