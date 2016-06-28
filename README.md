@@ -71,3 +71,28 @@ rbenv install 2.3.1
    ```
 
 5. You should be able to visit your website at `https://my-onepw-app-name.herokuapp.com`
+
+## Frequently Asked Questions
+
+* *Why not just use the `Public` folder in Dropbox?*
+
+  You can totally do this, but then you'll need to either copy the files from
+  their current location in your Dropbox to the Public folder (and figure out
+  how to keep them in sync&mdash;note that symlinks won't work!)
+
+  You'll also need a way to host the files at a URL you can remember. The
+  links for publicly-shared files in Dropbox aren't the easiest to remember.
+
+  Using Heroku gives you an easily-remembered URL and also creates an offline
+  backup of your files should you somehow lose access to your Dropbox (or in the
+  unlikely event Dropbox is down).
+
+* *How are files synced?*
+
+  When the server first starts up, it downloads a ZIP of the folder you shared.
+  For this reason it shouldn't be used for sharing large folders (a few MB for
+  best results).
+
+  As long as you keep making requests within a specified threshold (default
+  5 minutes), the files will be automatically synced in the background at
+  some interval (every 30 seconds by default).
