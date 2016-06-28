@@ -43,7 +43,7 @@ rbenv install 2.3.1
 
    ![Step 3](https://raw.githubusercontent.com/sds/dropbox-share-server/master/docs/heroku-step-3.png)
 
-   Set the app to use the Ruby Buildback:
+   Set the app to use the Ruby Buildback (`heroku/ruby`):
 
    ![Step 4](https://raw.githubusercontent.com/sds/dropbox-share-server/master/docs/heroku-step-4.png)
 
@@ -56,7 +56,7 @@ rbenv install 2.3.1
 3. Clone the repository
 
    ```bash
-   git clone git@github.com:sds/dropbox-share-server.git
+   git clone git://github.com/sds/dropbox-share-server.git
    cd dropbox-share-server
    ```
 
